@@ -7,7 +7,6 @@ html {
   --background: #fafafa;
 }
 body {
-  color: var(--black);
   font-family: "Nunito Sans", sans-serif;
 }
 main {

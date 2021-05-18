@@ -10,7 +10,7 @@ const CountryListStyled = styled.div`
   grid-auto-flow: columns;
   grid-column-gap: 66px;
   grid-template-columns: repeat(auto-fill, 270px);
-  background-color: var(--background);
+  background: var(--background);
   justify-content: center;
   padding: 3em 0rem;
 `;

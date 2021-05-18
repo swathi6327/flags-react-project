@@ -6,7 +6,7 @@ import CountrySelected from "./CountrySelected";
 
 const CountryPageStyled = styled.div`
   .back {
-    background-color: var(--white);
+    background: var(--white);
     color: var(--black);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 0.7em 2.2em;

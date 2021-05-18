@@ -15,10 +15,10 @@ const CountrySelectedStyled = styled.div`
   }
   .border-item {
     display: inline-flex;
-    padding: 0.3em 1.7em;
+    padding: 0.5em 2em;
     border-radius: 5px;
     margin-right: 15px;
-    margin-bottom: 1em;
+    margin-bottom: 15px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     background: var(--white);
   }
@@ -65,10 +65,8 @@ function CountrySelected({
 }) {
   return (
     <CountrySelectedStyled>
-      <Wrapper>
-        <img src={flag} alt={name} />
-      </Wrapper>
-      <Wrapper>
+      <img src={flag} alt={name} />
+      <div>
         <h2>{name}</h2>
         <div className="grid">
           <div>
@@ -120,7 +118,7 @@ function CountrySelected({
             {item}
           </span>
         ))}
-      </Wrapper>
+      </div>
     </CountrySelectedStyled>
   );
 }

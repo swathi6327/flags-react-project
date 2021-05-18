@@ -4,7 +4,7 @@ import { FilterByRegion } from "./FilterByRegion";
 import Search from "./Search";
 import Wrapper from "./Wrapper";
 
-const ActionListStyle = styled.div`
+const ActionListStyled = styled.div`
   .grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -19,7 +19,7 @@ const ActionListStyle = styled.div`
 
 function ActionList() {
   return (
-    <ActionListStyle>
+    <ActionListStyled>
       <Wrapper>
         <div className="grid">
           <Search />
@@ -27,7 +27,7 @@ function ActionList() {
           <FilterByRegion />
         </div>
       </Wrapper>
-    </ActionListStyle>
+    </ActionListStyled>
   );
 }
 
