@@ -8,7 +8,6 @@ const HeaderStyled = styled.div`
   margin-bottom: 1em;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
   .content {
-    margin: 0 1rem;
     height: 80px;
     display: flex;
     align-items: center;

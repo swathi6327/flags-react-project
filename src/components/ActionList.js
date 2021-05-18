@@ -19,17 +19,15 @@ const ActionListStyle = styled.div`
 
 function ActionList() {
   return (
-    <Wrapper>
-      <ActionListStyle>
-        <Wrapper>
-          <div className="grid">
-            <Search />
-            <span></span>
-            <FilterByRegion />
-          </div>
-        </Wrapper>
-      </ActionListStyle>
-    </Wrapper>
+    <ActionListStyle>
+      <Wrapper>
+        <div className="grid">
+          <Search />
+          <span></span>
+          <FilterByRegion />
+        </div>
+      </Wrapper>
+    </ActionListStyle>
   );
 }
 
