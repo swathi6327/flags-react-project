@@ -10,6 +10,11 @@ const FilterByRegionStyled = styled.select`
   box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
   background-color: var(--white);
   color: var(--black);
+  @import url("https://fonts.google.com/specimen/Nunito+Sans");
+
+  i {
+    padding: 5rem;
+  }
 `;
 
 const filterByRegionAction = (regionSelected) => {
@@ -21,6 +26,7 @@ const filterByRegionAction = (regionSelected) => {
 
 export const FilterByRegion = () => {
   const dispatch = useDispatch();
+
   const filterByRegion = useSelector((state) => state.filterByRegion);
 
   const onRegionChange = (selectEvent) => {

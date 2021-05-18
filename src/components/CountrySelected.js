@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import Wrapper from "./Wrapper";
 
 const CountrySelectedStyled = styled.div`
   margin-top: 3em;
