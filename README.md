@@ -1,7 +1,9 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App]
-https://github.com/dflr10/flags-react-project/blob/master/Animation.gif
+This project was bootstrapped with Create React App.
+
+![CountryHub running](https://github.com/dflr10/flags-react-project/blob/master/Animation.gif)
+
 
 ## Available Scripts
 
