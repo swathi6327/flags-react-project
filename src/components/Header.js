@@ -54,7 +54,7 @@ function Header({ setDarkMode, darkMode }) {
       <Wrapper>
         <div className="content">
           <Link to={"/"}>
-            <h1>Where in th world?</h1>
+            <h1>🗺️ CountryHub</h1>
           </Link>
           <div className="dark-mode">
             <p onClick={handleClick}>
