@@ -12,8 +12,8 @@ const FilterByRegionStyled = styled.select`
   color: var(--black);
   @import url("https://fonts.google.com/specimen/Nunito+Sans");
 
-  i {
-    padding: 5rem;
+  option {
+    font-size: 14px;
   }
 `;
 
