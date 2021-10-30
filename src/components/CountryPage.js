@@ -39,7 +39,7 @@ function ContryPage({ match, history }) {
 
   useEffect(() => {
     if (!country) {
-      fetch(`https://restcountries.eu/rest/v2/alpha/${match.params.id}`)
+      fetch(`https://restcountries.eu/rest/v3.1/alpha/${match.params.id}`)
         .then((response) => response.json())
         .then((data) => setCountry(data));
     }

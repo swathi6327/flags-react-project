@@ -34,7 +34,7 @@ function CountryList() {
   //console.log("Estado total de la app: ", countryList);
 
   useEffect(() => {
-    fetch("https://restcountries.eu/rest/v2/all")
+    fetch("https://restcountries.eu/rest/v3.1/all")
       .then((response) => response.json())
       .then((list) => {
         dispatch({
